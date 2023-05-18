@@ -1,0 +1,46 @@
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flex-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.fa-square-facebook{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* footer styles */
+
+.footer-bg{
+    background-color: black;
+    color: aliceblue;
+
+}
+.footer-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-footer:nth-child(1){
+    width: 260px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 35px;
+}
